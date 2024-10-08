@@ -23,7 +23,7 @@
 .searchInputContainer {
   display: flex;
   align-items: center;
-  padding: 8px;
+  padding: 12px;
   border: 2px solid #9f7aea;
   border-radius: 8px;
   overflow: hidden;
@@ -34,7 +34,7 @@
   width: 596px;
   outline: none;
   background-color: transparent;
-  color: #805ad5;
+  color: black;
   font-size: 0.875rem;
   border: none;
 }
@@ -62,16 +62,16 @@
 
 .noNotesMessage {
   text-align: center;
-  font-size: 1.25rem; /* text-lg */
-  color: #a0aec0; /* text-gray-500 */
+  font-size: 1.25rem;
+  color: #a0aec0;
 }
 
 .noteItem {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Alinhamento entre conteúdo e ícones */
-  padding-bottom: 8px;
-  border-bottom: 2px solid #805ad5; /* border-purple-400 */
+  justify-content: space-between;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #805ad5;
 }
 
 .checkbox {
@@ -92,7 +92,7 @@
 }
 
 .noteLabel {
-  font-size: 0.875rem; /* text-sm */
+  font-size: 0.875rem;
   font-weight: bold;
 }
 
@@ -111,11 +111,37 @@
 .noteContent {
   display: flex;
   align-items: center;
-  flex: 1; /* Ocupa o espaço restante */
+  flex: 1;
 }
 
 .noteActions {
   display: flex;
   align-items: center;
-  gap: 16px; /* Espaçamento entre os ícones */
+  gap: 16px;
+}
+
+.pageContainer {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2em;
+  overflow: hidden;
+}
+
+.todoContainer {
+  background-color: #fff;
+  padding: 4em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 880px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cursor {
+  cursor: pointer;
 }

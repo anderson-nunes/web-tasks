@@ -38,7 +38,6 @@ const Signup = () => {
 
   return (
     <>
-      <Header hasClose={false} labelAction="Entrar" />
       <div className={style["signup-container"]}>
         <div className={style["form-wrapper"]}>
           <img src={logo} alt="Logo" className={style["logo"]} />
