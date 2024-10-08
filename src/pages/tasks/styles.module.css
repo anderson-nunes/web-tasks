@@ -1,0 +1,121 @@
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  gap: 16px;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.searchInputContainer {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border: 2px solid #9f7aea;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.searchInput {
+  width: 596px;
+  outline: none;
+  background-color: transparent;
+  color: #805ad5;
+  font-size: 0.875rem;
+  border: none;
+}
+
+.icon {
+  border-color: #9f7aea;
+  margin-right: 16px;
+}
+
+.size {
+  font-size: 24px;
+}
+
+.selectContainer {
+  display: block;
+}
+
+.notesContainer {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 600px;
+}
+
+.noNotesMessage {
+  text-align: center;
+  font-size: 1.25rem; /* text-lg */
+  color: #a0aec0; /* text-gray-500 */
+}
+
+.noteItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Alinhamento entre conteúdo e ícones */
+  padding-bottom: 8px;
+  border-bottom: 2px solid #805ad5; /* border-purple-400 */
+}
+
+.checkbox {
+  margin-right: 8px;
+}
+
+.check {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.editInput {
+  width: 100%;
+  border-bottom: 2px solid #9f7aea;
+  outline: none;
+  border: none;
+}
+
+.noteLabel {
+  font-size: 0.875rem; /* text-sm */
+  font-weight: bold;
+}
+
+.iconContainer {
+  display: flex;
+  gap: 16px;
+}
+
+.modalContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.noteContent {
+  display: flex;
+  align-items: center;
+  flex: 1; /* Ocupa o espaço restante */
+}
+
+.noteActions {
+  display: flex;
+  align-items: center;
+  gap: 16px; /* Espaçamento entre os ícones */
+}

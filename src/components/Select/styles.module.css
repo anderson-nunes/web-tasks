@@ -1,0 +1,10 @@
+.select {
+  color: black;
+  background-color: rgb(235, 231, 238);
+  width: 100px;
+  height: 48px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 8px;
+}

@@ -1,0 +1,81 @@
+.container {
+  text-align: center;
+  padding: 1rem;
+}
+
+.icon {
+  font-size: 32px;
+  padding-top: 2rem;
+  cursor: pointer;
+  color: #ac62c3;
+}
+
+.dialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border: 2px solid rgb(192, 132, 252);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  font-family: sans-serif;
+  margin-bottom: 1rem;
+}
+
+.input {
+  width: 100%;
+  outline: none;
+  background: transparent;
+  color: black;
+  font-size: 14px;
+  border: none;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.btnApply {
+  width: 80px;
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.btnCancel {
+  background: rgb(220, 53, 69);
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.title {
+  padding-bottom: 2rem;
+}
