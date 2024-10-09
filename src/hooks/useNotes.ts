@@ -39,8 +39,6 @@ export function useNotes() {
       creator_id: Cookies.get("user_id") || "none",
     };
 
-    setNotes((prevNotes) => [...prevNotes, newNoteObj]);
-
     try {
       const payload = await createTask({
         title: newNoteObj.title,
@@ -48,11 +46,9 @@ export function useNotes() {
         creator_id: newNoteObj.creator_id,
       });
 
-      setNotes((prevNotes) =>
-        prevNotes.map((note) =>
-          note.id === payload.id ? { ...note, ...payload } : note
-        )
-      );
+      console.log(payload.task);
+
+      setNotes((prevState) => [...prevState, payload.task]);
     } catch (error) {
       console.log(error);
 
