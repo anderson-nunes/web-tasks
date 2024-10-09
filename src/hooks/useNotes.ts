@@ -60,12 +60,6 @@ export function useNotes() {
     }
   };
 
-  // const deleteNote = (id: number) => {
-  //   setNotes((prevNotes) => prevNotes.filter((note) => note.id !== id));
-
-  //   // chamar a api mesma estrutura do addNote
-  // };
-
   const deleteNote = async (id: number) => {
     setNotes((prevNotes) => prevNotes.filter((note) => note.id !== id));
 
@@ -78,7 +72,6 @@ export function useNotes() {
     }
   };
 
-  // talvez mudar o nome para setEditingNote
   const setEditingNote = (id: number) => {
     setNotes((prevNotes) =>
       prevNotes.map((note) =>
@@ -86,16 +79,6 @@ export function useNotes() {
       )
     );
   };
-
-  // const updateNote = (note: Note) => {
-  //   setNotes((prevNotes) =>
-  //     prevNotes.map((prevNote) =>
-  //       prevNote.id === note.id ? { ...prevNote, ...note } : prevNote
-  //     )
-  //   );
-
-  //   // chamar API de update parecido com o addNote
-  // };
 
   const updateNote = async (note: Note) => {
     setNotes((prevNotes) =>
