@@ -48,11 +48,12 @@ Nessa página o usuário pode criar sua conta fornecendo apenas um apelido, e-ma
 1. Clone este repositório em sua máquina.
 2. Navegue até o diretório do projeto.
 3. Instale as dependências com o comando:
-   ```bash
+   
+```sh
    npm install
    ```
 
-Inicie o servidor local com
+Inicie o servidor local com:
 
 ```sh
 npm start
