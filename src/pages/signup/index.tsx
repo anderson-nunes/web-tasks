@@ -1,4 +1,3 @@
-import { Header } from "../../components/Header";
 import logo from "../../assets/room_logo.jpeg";
 import Input from "../../components/Input";
 import { useState } from "react";

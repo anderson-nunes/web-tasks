@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useNotes, Status } from "../../hooks/useNotes";
 import Modal from "../../components/Modal";
 import Select from "../../components/Select";
