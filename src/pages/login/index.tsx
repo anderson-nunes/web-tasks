@@ -56,6 +56,10 @@ const Login = () => {
         >
           Crie uma conta!
         </Button>
+        <div className={style['style-signup']}>
+          <h4>Não tem uma conta?
+            Inscreva-se</h4>
+        </div>
       </form>
     </div>
   );
